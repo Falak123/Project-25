@@ -27,7 +27,7 @@ class Paper
 			//strokeWeight(4);
 			fill(128,128,128);
 			imageMode(CENTER);
-			image(this.image,this.x,this.y,20);
+			image(this.image,0,0,this.r);
 			pop()
 			
 	}
